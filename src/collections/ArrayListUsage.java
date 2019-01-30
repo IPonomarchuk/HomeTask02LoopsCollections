@@ -1,10 +1,10 @@
-package hometask2;
+package collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Task2 {
+public class ArrayListUsage {
 
     public static void main(String[] args) {
 

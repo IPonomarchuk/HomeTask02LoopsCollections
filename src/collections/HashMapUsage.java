@@ -1,9 +1,9 @@
-package hometask2;
+package collections;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task1 {
+public class HashMapUsage {
 
     public static void main(String[] args) {
 
