@@ -19,9 +19,9 @@ public class Task3 {
         set.add("kiwi");
 
         System.out.println("There are elements of set before processing: ");
-        for (String i : set)
+        for (String i : set) {
             System.out.println(i);
-
+        }
         List<String> list = new LinkedList<>();
         list.add("plum");
         list.add("nut");
@@ -35,15 +35,16 @@ public class Task3 {
         list.add("apricot");
         list.add("pineapple");
 
-        System.out.println('\n' + "Elements of linked list: ");
-        for (String i : list)
+        System.out.println('\n' + "There are elements of linked list: ");
+        for (String i : list) {
             System.out.println(i);
-
+        }
         set.retainAll(list);
 
         System.out.println('\n' + "There are elements of set after processing: ");
-        for (String i : set)
+        for (String i : set) {
             System.out.println(i);
+        }
     }
 
 }
