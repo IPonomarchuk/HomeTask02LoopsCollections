@@ -1,4 +1,4 @@
-package collections;
+package hometask02loopscollections;
 
 import java.util.HashSet;
 import java.util.LinkedList;
